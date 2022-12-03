@@ -120,7 +120,7 @@ int main() {
 
 /*
 
-Input for prefix covering design for d=4, K=40, alpha=21:
+Input for prefix covering design with d=4, K=40, alpha=21 (result=1.9047...):
 
 4 40 21
 15 1 2 3 4 5 6 7 8 9 10 40 19 28 37 26
@@ -131,7 +131,7 @@ Input for prefix covering design for d=4, K=40, alpha=21:
 
 
 
-Input for prefix covering design for d=5, K=40, alpha=18:
+Input for prefix covering design with d=5, K=40, alpha=18 (result=2.2222...):
 
 5 40 18
 13 1 2 3 4 5 6 7 8 24 31 38 30 14
@@ -140,5 +140,35 @@ Input for prefix covering design for d=5, K=40, alpha=18:
 13 25 26 27 28 29 30 31 32 40 16 23 39 6
 12 33 34 35 36 37 38 39 40 16 32 15 23
 
+
+
+
+Input for prefix covering design with d=6, K=60, alpha=24 (result=2.5*):
+
+6 60 24
+16 19 20 21 22 23 24 25 1 7 13 14 16 8 10 2 4
+16 26 27 28 29 30 31 32 2 8 14 18 17 12 11 6 5
+16 33 34 35 36 37 38 39 3 9 15 18 16 12 10 6 4
+16 40 41 42 43 44 45 46 4 10 16 13 17 7 11 1 5
+16 47 48 49 50 51 52 53 5 11 17 15 14 9 8 3 2
+16 54 55 56 57 58 59 60 6 12 18 15 13 9 7 3 1
+
+
+
+
+Input for prefix covering design with d=7, K=70, alpha=24 (result=2.9166...*):
+
+7 70 24
+16 22 23 24 25 26 27 28 1 8 15 19 20 12 13 5 6
+16 29 30 31 32 33 34 35 2 9 16 15 21 8 14 1 7
+16 36 37 38 39 40 41 42 3 10 17 15 18 8 11 1 4
+16 43 44 45 46 47 48 49 4 11 18 19 16 12 9 5 2
+16 50 51 52 53 54 55 56 5 12 19 21 17 14 10 7 3
+16 57 58 59 60 61 62 63 6 13 20 16 17 9 10 2 3
+16 64 65 66 67 68 69 70 7 14 21 20 18 13 11 6 4
+
+
+
+* for d=6 and d=7 better results are possible for larger multiplication factors
 
 */
