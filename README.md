@@ -4,4 +4,4 @@
 
 - `covering-designs-for-lower-bounds.txt` — best known to us covering designs for each value of $d$ from $3$ to $44$ already given as suitable inputs for `covering-design-match-check.cpp` and corresponding lower bounds obtained by using these covering designs.
 
-- `prefix-covering-design-check.cpp` — given $d$, $K$, $\alpha$ and a sequence of blocks checks whether it is indeed a correct $(d, K, \alpha)$ prefix covering design. Can be used to check Theorem 5. Needed inputs are given at the bottom of the file.
+- `prefix-covering-design-check.cpp` — given $d$, $K$, $\alpha$ and a sequence of blocks checks whether it is indeed a correct $(d, K, \alpha)$ prefix covering design. Can be used to check Theorem 5 constructions. Needed inputs are given at the bottom of the file.
