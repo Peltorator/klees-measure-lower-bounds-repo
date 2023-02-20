@@ -51,7 +51,7 @@ int main() {
     // check triplet condition
     for (int val1 = 1; val1 <= K; val1++) {
         for (int val2 = val1 + 1; val2 <= K; val2++) {
-            for (int val3 = val2 + 1; val3 <= K; val3++) { // go through all triples of elements
+            for (int val3 = val2 + 1; val3 <= K; val3++) { // go through all triplets of elements
                 bool coverage_for_this_triple_exists = false;
                 for (int seq1 = 0; seq1 < d; seq1++) {
                     for (int len1 = 0; len1 <= seq_len[seq1]; len1++) {
